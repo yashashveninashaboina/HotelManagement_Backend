@@ -10,6 +10,7 @@
         <version>3.2.5</version>
         <relativePath/>
     </parent>
+    
 
     <groupId>com.hotelmanagement</groupId>
     <artifactId>hotel-management-system</artifactId>
@@ -73,6 +74,11 @@
             <artifactId>jjwt-jackson</artifactId>
             <version>${jjwt.version}</version>
             <scope>runtime</scope>
+        </dependency>
+        <dependency>
+          <groupId>org.postgresql</groupId>
+          <artifactId>postgresql</artifactId>
+          <scope>runtime</scope>
         </dependency>
 
         <!-- Spring Boot Starter Test -->
